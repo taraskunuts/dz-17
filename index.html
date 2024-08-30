@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Україна</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body class="body">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="./index.html">Головна</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Зареєструйтеся</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./credits.html">Подяка розробнику</a>
+      </li>
+    </ul>
+    <figure class="figure">
+      <img
+        src="https://cdn.icon-icons.com/icons2/854/PNG/512/8_icon-icons.com_67660.png"
+        class="figure-img img-fluid rounded"
+        alt=""
+      />
+      <figcaption class="figure-caption">Графік успішності в україні</figcaption>
+    </figure>
+    <p>Украї́на (МФА: [ʊkrɐˈjinɐ]ⓘ) — держава у Східній та частково Центральній Європі. Охоплює південний захід Східноєвропейської рівнини, частину Східних Карпат і Кримські гори. Межує з Румунією й Молдовою на південному заході, з Угорщиною, Словаччиною та Польщею на заході, з Білоруссю на півночі та з Росією на сході й північному сході. На півдні омивається Чорним та Азовським морями. Площа становить 603 700 км²[7]. Найбільша за площею країна серед повністю розташованих у Європі[8].</p>
+    
+   
+  
+    
+    
+    
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Зареєструйтеся!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Реєстрація</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Пароль</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Адреса</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Адреса 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Місто</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Область</label>
+            <select class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonDark" data-bs-toggle="dropdown" aria-expanded="false">
+              <option selected>...</option>
+              <option value="">АР Крим</option>
+              <option value="">Вінницька</option>
+              <option value="">Волинська</option>
+              <option value="">Дніпропетровська</option>
+              <option value="">Донецька</option>
+              <option value="">Житомирська</option>
+              <option value="">Закарпатська</option>
+              <option value="">Запорізька</option>
+              <option value="">Івано-Франківська</option>
+              <option value="">Київська</option>
+              <option value="">Кіровоградська</option>
+              <option value="">Луганська</option>
+              <option value="">Львівська</option>
+              <option value="">Миколаївська</option>
+              <option value="">Одеська</option>
+              <option value="">Полтавська</option>
+              <option value="">Рівненська</option>
+              <option value="">Сумська</option>
+              <option value="">Тернопільська</option>
+              <option value="">Харківська</option>
+              <option value="">Херсонська</option>
+              <option value="">Хмельницька</option>
+              <option value="">Черкаська</option>
+              <option value="">Чернівецька</option>
+              <option value="">Чернігівська</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Captcha
+              </label>
+            </div>
+          </div>
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Зареєструватися</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
