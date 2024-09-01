@@ -4,6 +4,8 @@
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .thank-list{
@@ -33,4 +35,24 @@
     background-size: cover;
      box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, .2), 0px 1px 1px 0px rgba(0, 0, 0, .14), 0px 1px 3px 0px rgba(0, 0, 0, .12);
     border-radius: 5px;
+}
+
+.class{
+    width: 300px;
+    height: 300px;
+}
+
+.classs{
+    height: 300px;
+}
+
+.carousel{
+    background-color: black;
+    /* width: 350px;
+    height: 350px; */
+}
+
+.figure-caption{
+    color: #FFF;
+    text-align: center;
 }
